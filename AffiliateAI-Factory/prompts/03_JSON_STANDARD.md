@@ -1,5 +1,3 @@
-03_JSON_STANDARD.md
-
 # ==========================================================
 # AFFILIATE AI FACTORY
 # JSON STANDARD
