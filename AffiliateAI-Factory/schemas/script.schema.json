@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Script",
+  "type": "object",
+  "required": ["id", "product_id", "title", "duration_sec", "script_text"],
+  "properties": {
+    "id": {"type": "string"},
+    "product_id": {"type": "string"},
+    "title": {"type": "string"},
+    "duration_sec": {"type": "integer"},
+    "script_text": {"type": "string"},
+    "tone": {"type": "string"},
+    "cta": {"type": "string"}
+  }
+}

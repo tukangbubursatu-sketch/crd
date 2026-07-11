@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Analytics",
+  "type": "object",
+  "required": ["video_id", "views", "clicks", "ctr"],
+  "properties": {
+    "video_id": {"type": "string"},
+    "views": {"type": "integer"},
+    "clicks": {"type": "integer"},
+    "ctr": {"type": "number"},
+    "revenue": {"type": "number"},
+    "collected_at": {"type": "string", "format": "date-time"}
+  }
+}

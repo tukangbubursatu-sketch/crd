@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Video",
+  "type": "object",
+  "required": ["id", "script_id", "platform", "status"],
+  "properties": {
+    "id": {"type": "string"},
+    "script_id": {"type": "string"},
+    "platform": {"type": "string"},
+    "status": {"type": "string"},
+    "thumbnail_url": {"type": "string", "format": "uri"},
+    "duration_sec": {"type": "integer"}
+  }
+}

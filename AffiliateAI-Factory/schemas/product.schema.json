@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Product",
+  "type": "object",
+  "required": ["id", "name", "category", "price", "affiliate_url"],
+  "properties": {
+    "id": {"type": "string"},
+    "name": {"type": "string"},
+    "category": {"type": "string"},
+    "price": {"type": "number"},
+    "currency": {"type": "string"},
+    "affiliate_url": {"type": "string", "format": "uri"},
+    "description": {"type": "string"},
+    "tags": {"type": "array", "items": {"type": "string"}}
+  }
+}
