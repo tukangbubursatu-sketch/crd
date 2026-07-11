@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Todo App (localStorage)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Todo List</h1>
+
+    <form id="todo-form" class="todo-form">
+      <input id="todo-input" type="text" placeholder="What needs to be done?" aria-label="New todo">
+      <button type="submit">Add</button>
+    </form>
+
+    <div class="controls">
+      <div id="remaining">0 items left</div>
+      <div class="buttons">
+        <button id="filter-all" class="filter active">All</button>
+        <button id="filter-active" class="filter">Active</button>
+        <button id="filter-completed" class="filter">Completed</button>
+        <button id="clear-completed">Clear completed</button>
+      </div>
+    </div>
+
+    <ul id="todo-list" class="todo-list" aria-live="polite"></ul>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
