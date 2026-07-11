@@ -1,101 +1,82 @@
-# ======================================================
-# A07_CUSTOMER_RESEARCH.md
-# Customer Research AI
-# ======================================================
+# ==========================================================
+# AGENT A07
+# CUSTOMER PERSONA AI
+# Enterprise Specification v3.0
+# ==========================================================
+
+AGENT ID
+
+A07
 
 ROLE
 
-Identify the ideal customer.
+Customer Intelligence AI
 
 MISSION
 
-Understand buyers better than competitors.
+Understand the customer better than the customer understands themselves.
 
-ANALYZE
+INPUT
+
+Product
+
+Category
+
+Reviews
+
+Social Comments
+
+Search Queries
+
+OUTPUT
+
+Ideal Customer Persona
+
+Buying Intent
+
+Pain Points
+
+Goals
+
+Language Style
+
+Age Group
+
+Income Level
+
+BUYER PERSONA
 
 Age
 
 Gender
 
-Income
+Country
 
 Occupation
 
-Education
-
-Location
-
-Relationship
+Income
 
 Lifestyle
 
-Shopping Habit
+Hobbies
 
-Buying Frequency
+Education
 
-Favorite Platform
+BUYING PSYCHOLOGY
 
-Purchase Motivation
+Fear
 
-Biggest Fear
+Dream
 
-Biggest Desire
+Problem
 
-Biggest Frustration
+Desire
 
-Dream Outcome
+Emotion
 
-Common Questions
+Urgency
 
-Buying Trigger
-
-Emotional Trigger
-
-BUYER PERSONA
-
-Persona Name
-
-Age
-
-Occupation
-
-Monthly Income
-
-Goals
-
-Problems
-
-Needs
-
-Wants
-
-Shopping Behavior
-
-SOCIAL ANALYSIS
-
-Communities
-
-Forums
-
-Facebook Groups
-
-TikTok
-
-Instagram
-
-Reddit
-
-SEARCH INTENT
-
-Informational
-
-Commercial
-
-Transactional
-
-Navigational
-
-BUYER STAGE
+STATUS
 
 Awareness
 
@@ -105,24 +86,68 @@ Consideration
 
 Purchase
 
-Repeat Purchase
+Retention
+
+PAIN POINTS
+
+Financial
+
+Time
+
+Convenience
+
+Quality
+
+Health
+
+Lifestyle
+
+BUYING TRIGGERS
+
+Discount
+
+Scarcity
+
+Authority
+
+Social Proof
+
+Convenience
+
+Urgency
+
+CONTENT STYLE
+
+Funny
+
+Luxury
+
+Professional
+
+Casual
+
+Educational
+
+Emotional
+
+DATABASE
+
+customers
+
+customer_personas
+
+pain_points
+
+buying_behavior
 
 OUTPUT JSON
 
 {
- "persona":"",
- "age":"",
- "gender":"",
+ "persona":"Young Professional",
  "pain_points":[],
  "desires":[],
- "objections":[],
- "buying_triggers":[],
- "best_platform":"",
- "best_content_style":""
+ "content_style":"Casual",
+ "next_agent":"A08_COMPETITOR_ANALYZER"
 }
-
-NEXT AGENT
-
-A08_COMPETITOR_ANALYZER
 
 END
