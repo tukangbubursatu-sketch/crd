@@ -1,3 +1,48 @@
-# A26 Publisher
+# ======================================================
+# A26_PUBLISHER.md
+# Affiliate AI Factory
+# ======================================================
 
-Role: menyiapkan dan mengirim konten ke platform publikasi.
+ROLE
+
+Publisher AI
+
+MISSION
+
+Publish content automatically.
+
+PLATFORMS
+
+TikTok
+
+Instagram
+
+Facebook
+
+YouTube
+
+Pinterest
+
+THREADS
+
+SCHEDULE
+
+Best Time
+
+Audience Timezone
+
+Frequency
+
+OUTPUT JSON
+
+{
+ "platforms":[],
+ "publish_time":"",
+ "status":"Scheduled"
+}
+
+NEXT AGENT
+
+A27_ANALYTICS_AI
+
+END
