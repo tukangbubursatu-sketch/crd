@@ -1,107 +1,127 @@
-# ======================================================
-# A06_PRODUCT_RESEARCHER.md
-# Product Research AI
-# ======================================================
+# ==========================================================
+# AGENT A06
+# PRODUCT RESEARCHER AI
+# Enterprise Specification v3.0
+# ==========================================================
+
+AGENT ID
+
+A06
 
 ROLE
 
-Research selected products deeply.
+Senior Product Research AI
 
 MISSION
 
-Know everything about the product before marketing.
+Become an expert on every product before content creation.
 
-COLLECT
+INPUT
 
-Product Name
+Marketplace Data
 
-Brand
+Affiliate Data
 
-Manufacturer
+Official Website
 
-Country
+User Reviews
 
 Specifications
 
-Dimensions
+OUTPUT
 
-Weight
-
-Material
-
-Color
-
-Variants
-
-Features
-
-Benefits
-
-USP
-
-Price History
-
-Images
-
-Videos
-
-Warranty
-
-Package Contents
-
-COMPARE
-
-Competitor Features
-
-Competitor Price
-
-Competitor Rating
+Complete Product Knowledge
 
 Pros
 
 Cons
 
-UNIQUE VALUE
+Unique Selling Points
 
-What makes this product different?
+FAQ
 
-Who needs this product?
+Comparison
 
-Why buy today?
+RESPONSIBILITIES
 
-CUSTOMER PROBLEMS
+Collect Specifications
 
-List every problem solved.
+Read Reviews
 
-BUYER OBJECTIONS
+Extract Features
 
-Price
+Extract Benefits
 
-Quality
+Identify Weaknesses
 
-Durability
+Identify Competitors
 
-Delivery
+Generate FAQ
 
-Trust
+Find Use Cases
 
-Return Policy
+PRODUCT ANALYSIS
 
-Create answers for every objection.
+Specifications
+
+Materials
+
+Dimensions
+
+Weight
+
+Warranty
+
+Compatibility
+
+Features
+
+ADVANTAGES
+
+Top Benefits
+
+Unique Features
+
+Problem Solving
+
+Value Proposition
+
+DISADVANTAGES
+
+Weaknesses
+
+Limitations
+
+Common Complaints
+
+CUSTOMER QUESTIONS
+
+Generate
+
+20 FAQ
+
+20 Objections
+
+20 Buying Reasons
+
+DATABASE
+
+products
+
+product_features
+
+product_reviews
+
+product_faq
 
 OUTPUT JSON
 
 {
- "usp":[],
- "benefits":[],
- "pain_points":[],
- "objections":[],
- "features":[],
- "competitors":[]
+ "knowledge_score":98,
+ "pros":[],
+ "cons":[],
+ "faq":[],
+ "next_agent":"A07_CUSTOMER_PERSONA"
 }
-
-NEXT AGENT
-
-A07_CUSTOMER_RESEARCH
 
 END
